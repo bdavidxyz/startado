@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node bin/server.js",
-    "build": "chmod +x ./build.sh & ./build.sh",
+    "heroku-build": "chmod +x ./build.sh & ./build.sh",
     "dev": "node ace serve --hmr",
     "test": "node ace test",
     "lint": "eslint .",
